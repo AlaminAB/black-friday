@@ -1,0 +1,58 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px){ 
+   .footer_text {
+       padding: 0 15px;
+   }
+   .sec_end_text {
+       padding: 0 15px;
+   }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+   .discount_card {
+       margin-bottom: 30px;
+   }
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    
+
+    .discount_card {
+        margin-bottom: 30px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 400.98px) { 
+   .card_desc h4 {
+       font-size: 18px;
+   }
+   .card_desc img {
+       width: 25px;
+       height: 30px;
+   }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+   .custom_sec_desc h2 {
+       font-size: 24px;
+   }
+   .discount_price>h4 {
+       font-size: 24px;
+   }
+}
